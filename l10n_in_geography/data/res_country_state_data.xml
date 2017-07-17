@@ -38,6 +38,15 @@
            <field name="country_id" ref="base.in"/>
        </record>
 
+      
+    <!--Telangana-->
+        <record id="state_TG" model="res.country.state">
+           <field name="name">Telangana</field>
+           <field name="code">TG</field>
+           <field name="country_id" ref="base.in"/>
+       </record>
+
+            
     <!--Karnataka-->
         <record id="state_KA" model="res.country.state">
            <field name="name">Karnataka</field>
